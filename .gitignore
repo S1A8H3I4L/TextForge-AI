@@ -1,0 +1,37 @@
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment secrets
+
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+
+node_modules/
+dist/
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Python test/cache files
+
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+
+*.log
+
+# Generated model artifacts — include only if intentionally needed
+
+artifacts/
